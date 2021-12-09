@@ -55,7 +55,7 @@ header select {
 }
 
 /* <<<<<<<<<<<<< Blog page >>>>>>>>>>>> */
-.mainDiv, .mainDivArticle {
+.mainDiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,7 +91,7 @@ header select {
   margin: 4% 0% 4% 3%;
 }
 
-.mainDiv .container, .mainDivArticle .container {
+.mainDiv .container{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,30 +151,6 @@ header select {
 }
 
 /* <<<<<<<<<<<<< Article page >>>>>>>>>>>> */
-
-.mainDivArticle .container:hover .Img {
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
-}
-
-
-.mainDivArticle {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.mainDivArticle .container {
-  margin: 4% 0% 4% 0%;
-}
-
-.mainDivArticle .container h2 {
-  margin: 5px 0px 15px 0px;
-}
-
-.mainDivArticle .container + .container {
-  margin-right: 3%;
-}
 
 /* <<<<<<<<<<<<< veiw page >>>>>>>>>>>> */
 .Section {
